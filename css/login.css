@@ -1,0 +1,76 @@
+h1{
+    text-align: center;
+    font-weight: normal;
+    margin-top: 50px;
+}
+
+.login_error{
+    margin:auto;
+    padding-right: 30%;
+    padding-left: 30%;
+    margin-bottom:30px;
+}
+
+form{
+    /* margin:auto; */
+    /* text-align: center; */
+    background: rgb(212, 212, 212);
+    margin-left: 20%;
+    margin-right: 20%;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+h4{
+    text-align: center;
+    margin-top:40px
+}
+
+.login a{
+    text-align: center;
+}
+
+.login img{
+    display: block;
+    margin:auto;
+}
+
+.login p{
+    text-align: center;
+}
+
+.form-group{
+    width: 60%;
+    margin:auto;
+}
+
+.pw{
+    margin-top: 30px;
+}
+
+.btn-info{
+    width: 60%;
+    margin:auto;
+    display: block;
+    margin-top: 40px;
+    /* text-align: center; */
+}
+
+@media(min-width:300px){
+    h1{
+        margin-top: 90px;
+    }
+}
+@media(min-width:600px){
+    h1{
+        margin-top: 90px;
+    }
+}
+@media(min-width:960px){
+    h1{
+        margin-top: 90px;
+    }
+}
+
