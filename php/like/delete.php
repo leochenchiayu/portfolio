@@ -1,6 +1,4 @@
 <?php
-
-header("Access-Control-Allow-Origin: *");
     header("Content-Type: application/json; charset=UTF-8");
     header("Access-Control-Allow-Methods: POST");
     header("Access-Control-Max-Age: 3600");
@@ -15,7 +13,7 @@ header("Access-Control-Allow-Origin: *");
     $item = new thumb_up($db);
 
     $item->id = $_GET["data_no"];
-    echo $_GET["data_no"];
+    echo '<h1>' . htmlspecialchars($input) . '</h1>';
     
     // $item->id = $data->id;
     
